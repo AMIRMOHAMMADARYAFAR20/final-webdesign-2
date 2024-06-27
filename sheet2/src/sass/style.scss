@@ -1,0 +1,324 @@
+
+    @font-face {
+    font-family:"vazir";
+    src:url("../fonts/Vazirmatn-Regular.woff2") format("woff2");   
+    }
+     @font-face {
+      font-family: "Amsterdam";
+      src: url(../fonts/Amsterdam\ Personal\ Use.ttf)format("truetype");
+      font-weight: 400;
+     }
+     @font-face {
+      font-family: "Plane";
+      src: url(../fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf);
+     }
+     @font-face {
+      font-family: "Digitfarsi";
+      src: url(../fonts/ttf/Vazirmatn-FD-Black.ttf);
+      font-weight: 900;
+     }
+     *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     }
+    body {
+      font-family:"vazir";
+      background: rgba(255, 236, 210, 1);
+      overflow-x: hidden;
+      .title-header {
+        display: flex;
+        justify-content: space-around;
+        gap: 250px;
+        align-items: flex-start;
+        .circleimages{
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+          .circle{
+            background-color: rgba(224, 66, 24, 1);
+            border-radius: 50%;
+            img {
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      .resturantsarm {
+     background-color: rgba(254, 157, 38, 1);
+     border-bottom-left-radius: 25%;
+     padding: 1% 1% 3% 1%;
+      }
+      .info{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        align-items: center;
+        padding: 30px 0;
+    
+     .flex {
+      display: flex;
+      justify-content: space-between;
+      gap:5px;
+      .fcolor {
+        color:rgba(254, 157, 38, 1);
+        font-family: "Digitfarsi";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.25px;
+    text-align: center;
+    
+      }
+     }
+     .f {
+      color:rgba(224, 66, 24, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31.25px;
+    text-align: center;
+    
+     }
+    }
+    .header2{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+      width: auto;
+     color:rgba(224, 66, 24, 1);
+     .mimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+     }
+     .mh {
+      display: flex;
+      white-space: none;
+      width: 170px;
+      height: 30px;
+      font-family: "Vazir";
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 0em;
+    
+      h1 {
+        white-space: none;
+        letter-spacing: 0em;
+    
+      }
+     }
+      
+    }
+    .orders {
+      position: relative;
+      display:flex;
+      padding-left: 45%;
+      padding-top: 100px;
+      font-family: "Digitfarsi";
+    .grid-narrow{
+      .titleshopping {
+        display: flex;
+        justify-content: space-around;
+        gap:2px;
+        color:rgba(254, 157, 38, 1);
+        padding-bottom: 100px;
+      }
+    
+    
+   
+    .foods-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       gap: 10px;
+      .food-card{
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        gap:70px;
+        padding: 1px 15px 1px 10px;
+        background-color: white;
+        -webkit-box-shadow: 0px 1px 10px 0px rgba(133,133,133,1);
+        -moz-box-shadow: 0px 1px 10px 0px rgba(133,133,133,1);
+        box-shadow: 0px 1px 10px 0px rgba(133,133,133,1);
+        border-radius: 40px;
+      }
+      .food-title{
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+         gap :10px;
+        .food-descriptions{
+          display: flex;
+          gap: 8px;
+        }
+      }
+      .food-qty{
+        display: flex;
+        gap: 4px;
+        .buttons-container{
+          display: flex;
+          gap: 5px;
+          
+        }
+      }
+    }
+  }
+
+    .grid-massive{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap:30px;
+      position: absolute;
+      left:50px;
+      top:10px;
+      z-index: 0;
+      margin-bottom: 10px;
+      .columnflex{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 40px;
+        width: 450px;
+        padding: 30px;
+        .childcolumn{
+          display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 30px;
+    
+    .rowflex{
+      display: flex;
+      justify-content: space-between;
+      gap:10px;
+      .redcolor{
+        color:rgba(224, 66, 24, 1) ;
+        font-size: larger;
+      }
+      .yellowcolor{
+        color:rgba(254, 157, 38, 1);
+      }
+      .bluecolor{
+        color:rgba(42, 191, 255, 1);
+      }
+      .fontandsize{
+        font-family: "Digitfarsi";
+        .yellowcolor{
+          color:rgba(254, 157, 38, 1);
+        }
+        .biggerthan{
+          font-size:larger;
+        }
+      }
+    }
+    
+        }
+      }
+      .site{
+        text-align: right;
+        padding-top: 20px;
+        .redcolor{
+          color:rgba(224, 66, 24, 1);
+          text-align: right;
+          font-size: larger;
+        }
+      
+        label{
+          font-family: "vazir";
+          font-size: medium;
+          font-weight: 500;
+        }
+        .btn{
+          display: flex;
+          justify-content: space-around;
+          gap: 2px;
+          padding-top: 15px;
+        button{
+          padding:10px ;
+          border: none;
+          border-radius: 8px;
+      }
+    }
+    }
+    .button{
+      display: flex;
+      justify-content: center;
+     button {
+     border: none;
+     border-radius: 8px;
+     padding: 10px;
+     width: 432.94px;
+     height: 72px;
+     background-color: rgba(254, 157, 38, 1);
+     color: white;
+     }      
+    }
+    }
+    .container4 {
+      
+    // /  border-top: 100px solid white;
+    position: absolute;
+    top: 100%;
+    left: 10%;  
+      z-index: 5;
+       width: 1440px;
+     height: 310px;
+     background-color:rgba(255, 236, 210, 1);
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     gap:119px;
+     .part {
+      width: 184px; 
+      height: 203px;
+      font-family: "Digitfarsi";
+      color: rgba(160, 160, 160, 1);
+      text-align: right;
+      position: relative;
+      
+     }
+     h1{
+       color: rgba(240, 49, 83, 1);
+     }
+     
+     .part1 {
+       .connection {
+         width: 189px;
+         height: 44px;
+         background-color: white;
+         border-radius: 32.5px;
+       display: flex;
+       border-radius: 15px;
+       position: relative;
+       button {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 32px;
+         height: 32px;
+        border-radius: 50%;
+         background-color: rgba(244, 142, 40, 1);
+         color: white;  
+       border: none;
+       padding: 8px;
+       position: absolute;
+       top: 5px;
+       }
+       input {
+         width: 189px;
+         height: 44px;
+         border-radius: 32.5px;
+         border: none;
+       }
+       }
+      
+     }
+     }
+     
+    }
+    }
